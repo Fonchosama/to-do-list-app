@@ -42,9 +42,9 @@ function newItem(){
       //        li.classList.add("delete")
       //    }
 
-      crossOutButton.on('click', function() {
+    function deleteListItem () {
         li.addClass("delete");
-      });
+      };
 
       // 4. Reordering the items: 
        $('#list').sortable();
