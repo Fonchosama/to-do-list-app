@@ -50,6 +50,7 @@ li:hover{
 
 .delete {
 	display: none;
+	color: #ea0000;
 }
 
 li > crossOutButton {
